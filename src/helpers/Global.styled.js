@@ -1,6 +1,5 @@
 import { createGlobalStyle } from "styled-components";
 
-
 const GlobalStyles = createGlobalStyle`
 
     *{
@@ -13,6 +12,9 @@ const GlobalStyles = createGlobalStyle`
         background-color: ${({ theme }) => theme.bkColor} ; 
         font-family: ${(props) => props.font};
         color: ${({ theme }) => theme.fontColor} ; 
+        -webkit-zoom: 95%;
+        -moz-zoom: 95%;
+        zoom: 95%;
     }
 
     ul { 
