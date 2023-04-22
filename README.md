@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Netlify](https://pomodoro-app-dimolf345.netlify.app/)
+- Live Site URL: [Vercel](https://pomodoro-app-mauve.vercel.app/)
 
 ## My process
 
