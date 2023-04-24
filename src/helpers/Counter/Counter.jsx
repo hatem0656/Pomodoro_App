@@ -24,15 +24,16 @@ const Counter = ({ title, initial, ind }) => {
       <h5>{title}</h5>
       <CounterContainer>
         <h2>{count}</h2>
-        {/* Buttons will be changed to icons*/}
-        <button onClick={() => setCount((prev) => prev + 1)}>+</button>
-        <button onClick={() => setCount((prev) => prev - 1)}>-</button>
+        <i
+          className="bi bi-chevron-up"
+          onClick={() => setCount((prev) => prev + 1)}
+        ></i>
+        <i
+          className="bi bi-chevron-down"
+          onClick={() => setCount((prev) => prev - 1)}
+        ></i>
       </CounterContainer>
     </CounterStyled>
   );
 };
 export default Counter;
-// setCounters((arr) => [...arr, initial]);
-// setCounters(counters.map((counter,index) =>
-// (index === id) ? count : counter
-//  ))

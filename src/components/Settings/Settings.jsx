@@ -24,7 +24,6 @@ const Settings = () => {
       {/* ------------------------------------------------------------ */}
       <SettingHeader>
         <h1> Settings </h1>
-        {/* Wiil be changed to icon */}
         <i className="bi bi-x-lg" onClick={closeSettings}></i>
       </SettingHeader>
       {/* ------------------------------------------------------------ */}

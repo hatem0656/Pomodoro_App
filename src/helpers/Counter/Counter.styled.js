@@ -10,6 +10,7 @@ export const CounterStyled = styled.div`
   }
 `;
 export const CounterContainer = styled.div`
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -23,15 +24,17 @@ export const CounterContainer = styled.div`
     color: black;
     margin: 0;
   }
-  button {
-    width: 20px;
-    height: 20px;
-    padding: 0;
-    font-size: 10px;
-    text-align: center;
-    border: none;
-    border-radius: 5px;
+  i {
+    position: absolute;
+    right: 10px;
+    font-size: 11px;
     cursor: pointer;
-    margin-left: 5px;
+  }
+
+  i:first-of-type {
+    top: 5px;
+  }
+  i:nth-of-type(2) {
+    top: 16px;
   }
 `;
