@@ -55,10 +55,10 @@ export const SettingHeader = styled.div`
     color: black;
 }
   }
-  i {
+  svg{
     padding: 0;
     border: none;
-    font-size: 1rem;
+    font-size: 1.1rem;
     background-color: transparent;
     color: inherit;
     cursor: pointer;

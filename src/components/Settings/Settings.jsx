@@ -13,6 +13,7 @@ import {
   SettingColor,
 } from "./Settings.styled";
 import useSettings from "./useSettings";
+import { Icon } from "@iconify/react";
 
 const Settings = () => {
   const periods = useSelector((state) => state.counters.value);
@@ -24,7 +25,7 @@ const Settings = () => {
       {/* ------------------------------------------------------------ */}
       <SettingHeader>
         <h1> Settings </h1>
-        <i className="bi bi-x-lg" onClick={closeSettings}></i>
+        <Icon icon="material-symbols:close" onClick={closeSettings}></Icon>
       </SettingHeader>
       {/* ------------------------------------------------------------ */}
       <SettingTime>

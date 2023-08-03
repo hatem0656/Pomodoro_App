@@ -41,12 +41,12 @@ export const StyledTimer = styled.div`
     bottom: 96px;
     left: 51%;
   }
-  i {
+  svg {
     position: absolute;
     transform: translate(-50%, -50%);
     bottom: 55px;
     left: 48%;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     cursor: pointer;
     z-index: 100;
   }

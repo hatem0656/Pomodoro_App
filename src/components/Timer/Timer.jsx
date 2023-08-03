@@ -1,4 +1,5 @@
 import { StyledTimer } from "./Timer.styled";
+import { Icon } from "@iconify/react";
 import useTimer from "./useTimer";
 import convertNumber from "../../utiltis/convertNumber";
 import { useRef } from "react";
@@ -15,7 +16,7 @@ const Timer = () => {
         <span>{convertNumber(seconds)}</span>
       </div>
       <button onClick={toggleTimer}>{buttonState}</button>
-      <i className="bi bi-gear-fill" onClick={openSettings}></i>
+      <Icon icon="uil:setting" onClick={openSettings}></Icon>
       <canvas width="380" height="380" ref={animation}></canvas>
     </StyledTimer>
   );
